@@ -10,8 +10,6 @@ function stopWatch() {
         running = true;
 
         startTime = new Date();
-
-        
     }
 
     this.stop = function () {
