@@ -1,4 +1,4 @@
-// stopWatch Exercise
+// stopWatch - Exercise 1
 
 function stopWatch() {
     let startTime, running, endTime, duration = 0;
@@ -10,7 +10,7 @@ function stopWatch() {
         running = true;
 
         startTime = new Date();
-        
+
     }
 
     this.stop = function () {
@@ -40,5 +40,5 @@ function stopWatch() {
 }
 
 let myObj = new stopWatch();
-myObj.start();
+
 
